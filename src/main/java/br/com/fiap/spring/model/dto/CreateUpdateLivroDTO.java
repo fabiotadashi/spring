@@ -8,6 +8,7 @@ public class CreateUpdateLivroDTO {
     private String descricao;
     private String ISBN;
     private Date dataDePublicacao;
+    private double preco;
 
     public String getTitulo() {
         return titulo;
@@ -39,5 +40,13 @@ public class CreateUpdateLivroDTO {
 
     public void setDataDePublicacao(Date dataDePublicacao) {
         this.dataDePublicacao = dataDePublicacao;
+    }
+
+    public double getPreco() {
+        return preco;
+    }
+
+    public void setPreco(double preco) {
+        this.preco = preco;
     }
 }

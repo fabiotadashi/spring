@@ -1,6 +1,24 @@
-br/com/fiap/spring/Application.java
- br.com.fiap.spring.Application
 br/com/fiap/spring/model/dto/LivroDTO.java
  br.com.fiap.spring.model.dto.LivroDTO
+br/com/fiap/spring/controller/DebugController.java
+ br.com.fiap.spring.controller.DebugController
+br/com/fiap/spring/Application.java
+ br.com.fiap.spring.Application
+br/com/fiap/spring/model/entity/Livro.java
+ br.com.fiap.spring.model.entity.Livro
+br/com/fiap/spring/validator/LivroValidator.java
+ br.com.fiap.spring.validator.LivroValidator
+br/com/fiap/spring/repository/LivroRepository.java
+ br.com.fiap.spring.repository.LivroRepository
+br/com/fiap/spring/service/LivroServiceImpl.java
+ br.com.fiap.spring.service.LivroServiceImpl
+br/com/fiap/spring/configuration/AppConfiguration.java
+ br.com.fiap.spring.configuration.AppConfiguration
+br/com/fiap/spring/model/dto/UpdatePrecoLivroDTO.java
+ br.com.fiap.spring.model.dto.UpdatePrecoLivroDTO
+br/com/fiap/spring/model/dto/CreateUpdateLivroDTO.java
+ br.com.fiap.spring.model.dto.CreateUpdateLivroDTO
 br/com/fiap/spring/controller/LivroController.java
  br.com.fiap.spring.controller.LivroController
+br/com/fiap/spring/service/LivroService.java
+ br.com.fiap.spring.service.LivroService

@@ -1,5 +1,7 @@
 package br.com.fiap.spring.model.dto;
 
+import br.com.fiap.spring.model.entity.Livro;
+
 import java.util.Date;
 
 public class LivroDTO {
@@ -9,6 +11,18 @@ public class LivroDTO {
     private String descricao;
     private String ISBN;
     private Date dataDePublicacao;
+    private double preco;
+
+    public LivroDTO(){}
+
+    public LivroDTO(Livro livro) {
+        this.id = livro.getId();
+        this.titulo = livro.getTitulo();
+        this.descricao = livro.getDescricao();
+        this.ISBN = livro.getISBN();
+        this.dataDePublicacao = livro.getDataDePublicacao();
+        this.preco = livro.getPreco();
+    }
 
     public int getId() {
         return id;
@@ -48,5 +62,13 @@ public class LivroDTO {
 
     public void setDataDePublicacao(Date dataDePublicacao) {
         this.dataDePublicacao = dataDePublicacao;
+    }
+
+    public double getPreco() {
+        return preco;
+    }
+
+    public void setPreco(double preco) {
+        this.preco = preco;
     }
 }
